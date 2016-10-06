@@ -168,13 +168,23 @@ p.poly-over {
 
 }
 
-@media (max-width:1304px) {
-  .card img {
-    width: 250px !important;
-    height: 216px !important;
-  }
+
+
+.panel {
+  border:none;
+  background-color: #FBB881 !important;
 }
 
+.panel-default>.panel-heading {
+  background-color:#A7DBD2;
+  font-family: 'Roboto', sans-serif;
+}
+
+.panel-title {
+  color:white;
+  font-family:'Roboto', sans-serif;
+  font-size:15px;
+}
 /*slide 4*/
 
 h3 {
@@ -692,20 +702,61 @@ h6 {
 }
 }
 
+
+
+@media (min-width:820px) {
+  .history {
+    display:none;
+  }
+}
+
 @media (max-width:820px) {
-  .col-xs-5{
-    width:100%;
+  .his-text{
+    display:none;
+  }
+}
+
+@media (max-width:1304px) {
+  .card img {
+    width: 250px !important;
+    height: 216px !important;
+  }
+}
+
+@media (min-width:992px) {
+  .ingredients {
+    display:none;
+  }
+}
+
+@media (max-width:992px) {
+  .card{
+    display:none;
+  }
+}
+
+
+@media (min-width:824px) {
+  .menu{
+    display:none;
   }
   
-  h4 {
-  margin-left: 10px;
-  margin-top: 20px;
+  p.description2 {
+    display:none;
+  }
 }
 
-.history-p p {
-  margin-left: 15px;
-  font-size:12px;
-}
-
-}
+@media (max-width:824px) {
+  .marker{
+    display:none;
+  }
+  
+   #timeline-next, #timeline{
+    display:none;
+  }
+  
+  
+  p.description1 {
+    display:none;
+  }
 }
